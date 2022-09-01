@@ -17,12 +17,19 @@ html ,body {
 }
 
 /*  Characters */
-#hero {
+.container div {
     border: solid rgb(97, 59, 1) 2px;
     border-radius: 4px;
     width: 90%;
     padding: 0;
     margin: 0.500em auto;
+}
+hr {
+    margin-top: 2em;
+}
+
+#monster {
+   margin-top: 2em;
 }
 
 .flex-of-characters {
@@ -37,12 +44,44 @@ html ,body {
     border-radius: 4px;
 }
 
+.text-div , #health , #dice-count {
+    font-weight: 700;
+}
 /* Reusable Classes */
+
 .container-flex {
     display: flex;
     justify-content: center;
 }
 /* Default Behavior */
+
+#attack {
+    padding: 0.800em 2.2em;
+    margin: 1em auto;
+    border: none;
+    border-radius: 4px;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#attack:hover , #attack:focus {
+    background-color: rgba(165, 42, 42, 0.918);
+}
+
+.container div {
+    background-color: rgb(214, 156, 8);
+}
+
+.container {
+    background-color: rgb(139, 55, 5);
+}
+
+div p {
+    margin: 0.50em auto;
+    padding: 0;
+}
 img {
     width: 100%;
 }

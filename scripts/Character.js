@@ -1,3 +1,4 @@
-export function Character() {
-    //sss
+export function Character(data) {
+    Object.assign(data , this)
+    
 }
