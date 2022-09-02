@@ -15,6 +15,7 @@ html ,body {
     border-radius: 4px;
     max-width: 60%;
     margin: 0.200em auto 0.100em auto;
+    max-height: 100%;
 }
 
 /*  Characters */
@@ -57,6 +58,7 @@ html ,body {
     margin: 0 auto;
     background-color: rgb(214, 156, 8);
     border: solid rgb(97, 59, 1) 2px;
+    border-radius: 4px;
 }
 
 
