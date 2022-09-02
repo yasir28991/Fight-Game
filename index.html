@@ -9,14 +9,14 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container container-flex">
     <div id="hero" class="flex-of-characters">
         <h3 id="name">name</h3>
         <img id="avatar" src="/images/wizard.png" alt="wizard">
         <p class="text-div">health: <span id="health">40</span></p>
         <p class="text-div" >Dicecount: <span id="dice-count">3</span></p>
     </div>
-    <hr>
+
     <div id="monster" class="flex-of-characters">
         <h3 id="name">name</h3>
         <img id="avatar" src="/images/wizard.png" alt="wizard">
@@ -24,11 +24,11 @@
         <p class="text-div" >Dicecount: <span id="dice-count">3</span></p>
     </div>
 
-    <div class="flex-of-characters">
+</div>   <!--End of container-->
+
+    <div class="container-flex attack-box">
     <button id="attack">Attack</button>
     </div>
-    
-</div>     <!--End of container-->
 
     <script src="app.js" type="module"></script>
 </body>
