@@ -1,13 +1,15 @@
-import Character from "./Character.js"
-import characterData from './data.js'
+import {Character} from "./Character.js"
+import {characterData} from './data.js'
 
-let heroDiv = document.getElementById('hero')
+
 let monsterDiv = document.getElementById('monster') 
 
 
-const wizard = new Character(CharacterData.hero)
+let wizard = new Character(characterData.hero)
 render()
 
 function render() {
-    heroDiv.innerHTML = wizard.getCharacterHtml()
+    document.getElementById('hero').innerHTML = wizard.getCharacterHtml()
 }
+
+console.log(render)

@@ -1,5 +1,5 @@
-const characterData = {
-    hero : {
+export const characterData = {
+    hero: {
         elementId : 'hero' ,
         charName: 'Wizard' ,
         avatar: 'images/wizard.png' ,
@@ -7,7 +7,7 @@ const characterData = {
         health: 100 
     } ,
 
-    monster : {
+    monster: {
         elementId : 'monster' ,
         charName: 'Orc' ,
         avatar: 'images/orc.png' ,
@@ -15,6 +15,3 @@ const characterData = {
         health: 100 
     }
 }
-
-
-export default characterData

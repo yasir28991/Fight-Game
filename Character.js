@@ -1,6 +1,4 @@
-import characterData from "./data.js"
-
-class Character {
+export class Character {
     constructor(data) {
         Object.assign(data, this)
     }
@@ -10,11 +8,8 @@ class Character {
 
         return `
         <h3 id="name">${charName}</h3>
-        <img id="avatar"${avatar}">
+        <img id="avatar" src="${avatar}">
         <p class="text-div">health: <span id="health">${health}</span></p>
         <p class="text-div">Dicecount: <span id="dice-count">${diceCount}</span></p>`
     }
 }
-
-
-export default Character
